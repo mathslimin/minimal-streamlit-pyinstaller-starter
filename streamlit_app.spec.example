@@ -21,7 +21,8 @@ a = Analysis(
     pathex=["."],
     binaries=[],
     datas=datas,
-    hiddenimports=[],
+    #hiddenimports=[],
+    hiddenimports=['streamlit','streamlit.runtime.scriptrunner.magic_funcs','loguru'],
     # include the custom hooks
     hookspath=['./hooks'],
     hooksconfig={},
