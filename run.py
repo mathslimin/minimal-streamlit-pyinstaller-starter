@@ -1,6 +1,3 @@
-# we need to import the streamlit_app.py file to
-# ensure that PyInstaller includes it in the build
-import streamlit_app
 
 import streamlit.web.cli as stcli
 import os
